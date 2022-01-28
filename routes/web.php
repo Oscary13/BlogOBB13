@@ -17,7 +17,7 @@ use App\Models\User;
 
 Route::get('/', function () {
     $frases = new Frases();
-    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa' que ya sea mejor";
+    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa que ya sea mejor";
     return view('index',['frases'=> $frases]);
 });
 
@@ -45,6 +45,6 @@ Route::get('/inicio', function () {
     //return view('templete.index',['categoria' => $categoria]);
 
     $frases = new Frases();
-    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa' que ya sea mejor";
+    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa que ya sea mejor";
     return view('templete.index', ['frases'=> $frases]);
 })->name('inicio');
