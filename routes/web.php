@@ -31,7 +31,7 @@ use App\Models\User;
 //     return view('despedida');
 // })->name('perro');
 Route::get('/', function () {
-    return view('welcome');
+    return view('templete.index');
 });
 Route::get('/inicio', function () {
     // $categoria = new User();
