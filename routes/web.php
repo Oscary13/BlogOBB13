@@ -15,9 +15,9 @@ use App\Models\User;
 |
 */
 
-// Route::get('/saludo', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/inicio', function () {
 //     $nombre = "Emmanuel";
@@ -30,11 +30,11 @@ use App\Models\User;
 //     echo "Hola mundo";
 //     return view('despedida');
 // })->name('perro');
-Route::get('/', function () {
-    $frases = new Frases();
-    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa que ya sea mejor";
-    return view('templete.index', ['frases'=> $frases]);
-});
+// Route::get('/', function () {
+//     $frases = new Frases();
+//     $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa que ya sea mejor";
+//     return view('templete.index', ['frases'=> $frases]);
+// });
 Route::get('/inicio', function () {
     // $categoria = new User();
     // $categoria->nombre = 'Categoria1';
