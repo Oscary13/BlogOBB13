@@ -164,7 +164,7 @@
           </div>
           <div class="sub-heading">
             <p>
-            {{-- {{$frases->frase1}} <b>-Canserbero</b> --}}
+            {{$frases->frase1}} <b>-Canserbero</b>
             </p>
           </div>
 
