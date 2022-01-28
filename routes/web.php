@@ -32,7 +32,7 @@ use App\Models\User;
 // })->name('perro');
 Route::get('/', function () {
     $frases = new Frases();
-    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa' que ya sea mejor";
+    $frases->frase1 ="La música es un mundo increíble y la vida es un suspiro, basta verla diferente, pa que ya sea mejor";
     return view('templete.index', ['frases'=> $frases]);
 });
 Route::get('/inicio', function () {
