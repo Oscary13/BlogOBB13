@@ -1,6 +1,6 @@
 # BlogOBB13
 <br>
-<strong>Nombre del proyecto:</strong> Blog Lírica de barrio
+<h1>Nombre del proyecto:</h1> Blog Lírica de barrio
 <br>
 Institución: UNIVERSIDAD POLITECNICA DE TECAMAC
 <br>
